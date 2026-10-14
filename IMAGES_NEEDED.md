@@ -1,0 +1,67 @@
+# Images needed for the site
+
+Drop each file into the site/img/ folder with the EXACT name shown.
+The page works without them (shows a framed placeholder); it fills in as you add files.
+
+- `img/banner-home.jpg` — Banner image for the Mi Retratito page (wide, ~2000px). Optional.
+- `img/portrait.jpg` — Artist portrait for the home page.
+- `img/og.jpg` — Social share image (1200x630). Optional but recommended.
+- `img/banner-photography.jpg` — Banner image for the Photography page (wide, ~2000px). Optional.
+- `img/photography-01.jpg` — Gaia on fire — image for "photography".
+- `img/photography-02.jpg` — Vecchia illusione — image for "photography".
+- `img/photography-03.jpg` — Meeting with my shadow — image for "photography".
+- `img/photography-04.jpg` — Miraflores — image for "photography".
+- `img/photography-05.jpg` — Mother — image for "photography".
+- `img/photography-06.jpg` — Chasing legs — image for "photography".
+- `img/photography-07.jpg` — Infinite you — image for "photography".
+- `img/photography-08.jpg` — Flowers will wait for you — image for "photography".
+- `img/photography-09.jpg` — Rose de mai — image for "photography".
+- `img/photography-10.jpg` — Noche Luna — image for "photography".
+- `img/photography-11.jpg` — Siddharta — image for "photography".
+- `img/photography-12.jpg` — My colored cold — image for "photography".
+- `img/banner-digital-art.jpg` — Banner image for the Digital Art page (wide, ~2000px). Optional.
+- `img/digital-art-01.jpg` — 30D — image for "digital-art".
+- `img/digital-art-02.jpg` — Resonance — image for "digital-art".
+- `img/digital-art-03.jpg` — Spiral Play (drei) — image for "digital-art".
+- `img/digital-art-04.jpg` — Urbano — image for "digital-art".
+- `img/digital-art-05.jpg` — Damero — image for "digital-art".
+- `img/digital-art-06.jpg` — Glitter 06 — image for "digital-art".
+- `img/digital-art-07.jpg` — Glitter 01 — image for "digital-art".
+- `img/digital-art-08.jpg` — Vibration — image for "digital-art".
+- `img/digital-art-09.jpg` — Midnight — image for "digital-art".
+- `img/digital-art-10.jpg` — Summer — image for "digital-art".
+- `img/digital-art-11.jpg` — Traveling — image for "digital-art".
+- `img/digital-art-12.jpg` — Submerged — image for "digital-art".
+- `img/digital-art-13.jpg` — Rural — image for "digital-art".
+- `img/digital-art-14.jpg` — 333 — image for "digital-art".
+- `img/digital-art-15.jpg` — Monday — image for "digital-art".
+- `img/banner-poetry.jpg` — Banner image for the Poetry page (wide, ~2000px). Optional.
+- `img/poetry-01.jpg` — Poem 01 — image for "poetry".
+- `img/poetry-02.jpg` — Poem 02 — image for "poetry".
+- `img/poetry-03.jpg` — Poem 03 — image for "poetry".
+- `img/poetry-04.jpg` — Poem 04 — image for "poetry".
+- `img/poetry-05.jpg` — Poem 05 — image for "poetry".
+- `img/poetry-06.jpg` — Poem 06 — image for "poetry".
+- `img/poetry-07.jpg` — Poem 07 — image for "poetry".
+- `img/poetry-08.jpg` — Poem 08 — image for "poetry".
+- `img/poetry-09.jpg` — Poem 09 — image for "poetry".
+- `img/poetry-10.jpg` — Poem 10 — image for "poetry".
+- `img/poetry-11.jpg` — Poem 11 — image for "poetry".
+- `img/poetry-12.jpg` — Poem 12 — image for "poetry".
+- `img/poetry-13.jpg` — Poem 13 — image for "poetry".
+- `img/poetry-14.jpg` — Poem 14 — image for "poetry".
+- `img/poetry-15.jpg` — Poem 15 — image for "poetry".
+- `img/poetry-16.jpg` — Poem 16 — image for "poetry".
+- `img/poetry-17.jpg` — Poem 17 — image for "poetry".
+- `img/poetry-18.jpg` — Poem 18 — image for "poetry".
+- `img/poetry-19.jpg` — Poem 19 — image for "poetry".
+- `img/poetry-20.jpg` — Poem 20 — image for "poetry".
+- `img/poetry-21.jpg` — Poem 21 — image for "poetry".
+- `img/banner-generative-art.jpg` — Banner image for the Generative Art page (wide, ~2000px). Optional.
+- `img/generative-art-01.jpg` — Piece 01 — image for "generative-art".
+- `img/generative-art-02.jpg` — Piece 02 — image for "generative-art".
+- `img/generative-art-03.jpg` — Piece 03 — image for "generative-art".
+- `img/generative-art-04.jpg` — Piece 04 — image for "generative-art".
+- `img/banner-music.jpg` — Banner image for the Music page (wide, ~2000px). Optional.
+- `img/banner-collabs.jpg` — Banner image for the Collabs page (wide, ~2000px). Optional.
+- `img/banner-contact.jpg` — Banner image for the Contact page (wide, ~2000px). Optional.

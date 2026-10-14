@@ -1,0 +1,18 @@
+# Mi Retratito
+
+> Digital artist whose interdisciplinary practice explores the organic, language, memory, and perception through image, sound, movement, and code. Her work combines human and generative processes in pieces where fragmentation, gesture, and transformation function as intuitive and conceptual languages. Between the intimate and the experimental, she develops sensitive experiences that traverse different media and formats, expanding the relationship between body, technology, and perception.
+
+Mi Retratito is the portfolio of a multidisciplinary digital artist working across photography, digital and generative art, music, and poetry.
+
+## Pages
+- [Home](https://miretratito.art/): overview and biography
+- [Photography](https://miretratito.art/photography): analog and digital photography
+- [Digital Art](https://miretratito.art/digital-art): composed digital images
+- [Generative Art](https://miretratito.art/generative-art): code-based works, minted as NFTs on objkt
+- [Music](https://miretratito.art/music): original tracks
+- [Poetry](https://miretratito.art/poetry): poems
+- [Collabs](https://miretratito.art/collabs): collaborative works
+- [Contact](https://miretratito.art/contact): miretratito@gmail.com
+
+## Notes
+- The artist welcomes use of her published music and art for reference and study.

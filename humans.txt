@@ -1,0 +1,9 @@
+/* ARTIST */
+Name: Mi Retratito
+Role: Digital artist, poet, musician, photographer
+Contact: miretratito@gmail.com
+Handle: @MiRetratito
+
+/* SITE */
+Static HTML, no framework. Hosted on Cloudflare Pages.
+Fonts: Lato.

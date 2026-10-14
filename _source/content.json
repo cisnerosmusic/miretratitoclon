@@ -1,0 +1,104 @@
+{
+  "site": {
+    "name": "Mi Retratito",
+    "handle": "@MiRetratito",
+    "email": "miretratito@gmail.com",
+    "domain": "miretratito.art",
+    "tagline": "Poet, Performing Artist & Photographer · Musician",
+    "bio": "Digital artist whose interdisciplinary practice explores the organic, language, memory, and perception through image, sound, movement, and code. Her work combines human and generative processes in pieces where fragmentation, gesture, and transformation function as intuitive and conceptual languages. Between the intimate and the experimental, she develops sensitive experiences that traverse different media and formats, expanding the relationship between body, technology, and perception.",
+    "hashtags": "#MiRetratito #MiRetratitoArt"
+  },
+  "nav": [
+    {"slug": "index", "label": "Mi Retratito", "file": "index.html"},
+    {"slug": "photography", "label": "Photography", "file": "photography.html"},
+    {"slug": "digital-art", "label": "Digital Art", "file": "digital-art.html"},
+    {"slug": "generative-art", "label": "Generative Art", "file": "generative-art.html"},
+    {"slug": "music", "label": "Music", "file": "music.html"},
+    {"slug": "poetry", "label": "Poetry", "file": "poetry.html"},
+    {"slug": "collabs", "label": "Collabs", "file": "collabs.html"},
+    {"slug": "contact", "label": "Contact", "file": "contact.html"}
+  ],
+  "photography": {
+    "heading": "Photography",
+    "intro": "Analog and digital frames gathered across years and cities.",
+    "items": [
+      {"title": "Gaia on fire", "caption": "She dances, she waves, she smiles. She's on fire.", "place": "Lima, 2009"},
+      {"title": "Vecchia illusione", "caption": "", "place": "Lima, 2023"},
+      {"title": "Meeting with my shadow", "caption": "Angeldemonio · Invernadero", "place": "Lima, 2008"},
+      {"title": "Miraflores", "caption": "", "place": "Lima, 2024"},
+      {"title": "Mother", "caption": "While my heart bleeds, we'll keep on walking.", "place": ""},
+      {"title": "Chasing legs", "caption": "One quiet, unremarkable night around 1 a.m., on my way back home…", "place": ""},
+      {"title": "Infinite you", "caption": "nightshot", "place": "Bolivia, 2008"},
+      {"title": "Flowers will wait for you", "caption": "Homage to Women", "place": ""},
+      {"title": "Rose de mai", "caption": "f/2.7 · 1/4s · ISO-3200 · no flash", "place": ""},
+      {"title": "Noche Luna", "caption": "El arte no cura... el arte es mi alma gritando. — Sophie Cornelle", "place": ""},
+      {"title": "Siddharta", "caption": "Teatro del Sol", "place": "Bolivia, 2000"},
+      {"title": "My colored cold", "caption": "", "place": ""}
+    ]
+  },
+  "digital-art": {
+    "heading": "Digital Art",
+    "intro": "Composed images where gesture and code meet.",
+    "items": [
+      {"title": "30D"}, {"title": "Resonance"}, {"title": "Spiral Play (drei)"},
+      {"title": "Urbano"}, {"title": "Damero"}, {"title": "Glitter 06"},
+      {"title": "Glitter 01"}, {"title": "Vibration"}, {"title": "Midnight"},
+      {"title": "Summer"}, {"title": "Traveling"}, {"title": "Submerged"},
+      {"title": "Rural"}, {"title": "333"}, {"title": "Monday"}
+    ]
+  },
+  "generative-art": {
+    "heading": "Generative Art",
+    "intro": "Code-born pieces, many minted as NFTs on objkt. Clean embeds pending.",
+    "items": []
+  },
+  "music": {
+    "heading": "Music",
+    "intro": "The sound of my soul.",
+    "items": [
+      {"title": "The sound of my soul", "drive": "1Y6wzyIq4ESmGFGM51vobfMTHErTkgChU"},
+      {"title": "The strings that sustain me", "drive": "1EAr1t2BTGQXwAc6mB74gLN5nDzD8LOtr"},
+      {"title": "Mirror", "drive": "1XAVv4B21mAjAeUhP_TAbkzHrL6lyJ_1R"},
+      {"title": "New dance", "drive": "1tG7zDAOjcHLtIRyiGlQwqgHWXhpeliiV"},
+      {"title": "Torrent", "drive": "1m9WAF5x2AckNbSqTcTyhqDMjPLHNSJ1O"},
+      {"title": "Winter in Summer", "drive": "1JEuqKnY8CuIgTgFtJdbHsXX89qhBPSab"},
+      {"title": "Internus", "drive": "1re7Mq16aIQ1x_gpkRoG5BzJVOTRompMo"},
+      {"title": "Deep emotion", "drive": "1k6jzlzPnZJ4pQyaH38y3aVREDDJCIgO6"},
+      {"title": "Silent Battles", "drive": "1RRspPjsPSJbiacz31RJlA87NKJKPaDXP"},
+      {"title": "F.O.M.O", "drive": "1YpoVhfa1roxrRwFDkdXTmywdYfl8jlNv"},
+      {"title": "Golden Penelope", "drive": "1UfYL-Ifs1_29VC9z2iu0QWS_3tNa7r1G"},
+      {"title": "Set me free", "drive": "1UbpdSsqkqFHyFCfbLBBZxzGboy3CInOE"}
+    ]
+  },
+  "poetry": {
+    "heading": "Poetry",
+    "intro": "Words as image.",
+    "items": [
+      {"title": "Poem 01"}, {"title": "Poem 02"}, {"title": "Poem 03"},
+      {"title": "Poem 04"}, {"title": "Poem 05"}, {"title": "Poem 06"},
+      {"title": "Poem 07"}, {"title": "Poem 08"}, {"title": "Poem 09"},
+      {"title": "Poem 10"}, {"title": "Poem 11"}, {"title": "Poem 12"},
+      {"title": "Poem 13"}, {"title": "Poem 14"}, {"title": "Poem 15"},
+      {"title": "Poem 16"}, {"title": "Poem 17"}, {"title": "Poem 18"},
+      {"title": "Poem 19"}, {"title": "Poem 20"}, {"title": "Poem 21"}
+    ]
+  },
+  "collabs": {
+    "heading": "Collabs",
+    "intro": "Shared voices across sound and image.",
+    "items": [
+      {"title": "Panot", "with": "@GaiaMusique, @MiRetratito & @Panot", "drive": "1xi0Yk0Xj5P5xGiA0KtvayvxCoZVgpdfC"},
+      {"title": "The sound of our souls", "with": "@estrujamentes, @MiRetratito & @ernestcisneros1", "drive": "1YYlhUMHbwS3SKLsw4PMvVckDX5jXFY1X"},
+      {"title": "Mi negrura", "with": "@Shanayaherrera & @MiRetratito", "drive": "14QjkJIUlO7RNj-NkiZKE-122LbbG-Wdq"},
+      {"title": "Unexpected Duality", "with": "@MiRetratito & @proyecto_ensayo", "drive": "1AeNT9rDjU_di1x0P9m6jYWCtqP_AsDq1"},
+      {"title": "Aóratos -Invisible-", "with": "@chapu_cera & @MiRetratito", "drive": "1DINawBxXJNwpfUdnYOyHKlB_LXgvNHiI"},
+      {"title": "Qumir", "with": "@MiRetratito, @FendelMarc & @Wwworonin", "drive": "1b4-YEKtWl3fFVGPhjwkoQAr570gR1d_2"},
+      {"title": "Luna", "with": "@nurart_ & @MiRetratito", "drive": "1G9fN_kVf_97M1wUYcDjJGlK0T8peV0l8"},
+      {"title": "Mebahel Legacy", "with": "@MiRetratito, @ShadowMusic & @StefenLazer", "drive": "13IOUOjZ2tv920Z0hr5vSCxj2xA8zSxDK"},
+      {"title": "I believe", "with": "@MiRetratito & @AIPandemonium", "drive": "1cNlyEQ97M3YoP7DdvZdCnT9UautDzKmf"},
+      {"title": "Luna (poema)", "with": "", "drive": ""},
+      {"title": "Resilience Dolls - What I sing today", "with": "@GaiaMusique & @MiRetratito", "drive": ""},
+      {"title": "Nobody", "with": "", "drive": ""}
+    ]
+  }
+}
