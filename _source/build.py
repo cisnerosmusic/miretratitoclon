@@ -272,17 +272,18 @@ rows = []
 ph = count_imgs("photography", len(C["photography"]["items"]))
 da = count_imgs("digital-art", len(C["digital-art"]["items"]))
 po = count_imgs("poetry", len(C["poetry"]["items"]))
-ge = count_imgs("generative-art", 4)
+gen_live = [it["title"] for it in C["generative-art"]["items"] if it.get("media")]
+gen_total = max(len(C["generative-art"]["items"]), 1)
 music_audio = sum(1 for it in C["music"]["items"] if it.get("drive"))
 collab_audio = sum(1 for it in C["collabs"]["items"] if it.get("drive"))
 portrait = 1 if have("img/portrait.jpg") else 0
 
 sections = [
     ("Inicio (retrato)", portrait, 1, ""),
-    ("Photography", ph, len(C["photography"]["items"]), ""),
-    ("Digital Art", da, len(C["digital-art"]["items"]), ""),
-    ("Generative Art", ge, 4, "+ embeds de objkt a mano"),
-    ("Poetry", po, len(C["poetry"]["items"]), ""),
+    ("Photography", ph, len(C["photography"]["items"]), "imágenes"),
+    ("Digital Art", da, len(C["digital-art"]["items"]), "imágenes"),
+    ("Generative Art", len(gen_live), gen_total, "embebidas en vivo: " + (", ".join(gen_live) if gen_live else "ninguna aún")),
+    ("Poetry", po, len(C["poetry"]["items"]), "imágenes"),
     ("Music", music_audio, len(C["music"]["items"]), "audio embebido ✓"),
     ("Collabs", collab_audio, len(C["collabs"]["items"]), "audio embebido"),
 ]
@@ -308,8 +309,8 @@ prog.append("")
 prog.append("**Listo ya:** textos y pies de foto de todas las páginas · música y collabs sonando · "
             "SEO completo (sin `noindex`) · diseño fiel al original · responsive.")
 prog.append("")
-prog.append("**Falta:** soltar las imágenes limpias en `img/` (ver `IMAGES_NEEDED.md`) "
-            "y pegar los embeds de generative art.")
+prog.append("**Falta:** soltar las imágenes limpias en `img/` (ver `IMAGES_NEEDED.md`). "
+            "Las obras generativas se van embebiendo en vivo a medida que llegan sus enlaces de objkt/transient.")
 prog.append("<!-- progreso:fin -->")
 progress_block = "\n".join(prog)
 
