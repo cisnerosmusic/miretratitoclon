@@ -1,7 +1,7 @@
-# Images needed for the site
+# Imágenes que faltan
 
-Drop each file into the site/img/ folder with the EXACT name shown.
-The page works without them (shows a framed placeholder); it fills in as you add files.
+Suelta cada archivo en la carpeta `img/` con el nombre EXACTO que ves aquí.
+El sitio funciona sin ellas (muestra un marco con el título) y se va llenando a medida que las agregas.
 
 - `img/banner-home.jpg` — Banner image for the Mi Retratito page (wide, ~2000px). Optional.
 - `img/portrait.jpg` — Artist portrait for the home page.

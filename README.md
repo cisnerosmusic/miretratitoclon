@@ -3,6 +3,29 @@
 Clon fiel del sitio original (Google Sites, `miretratito.art`), rehecho como
 HTML estático para servir **rápido** desde **Cloudflare Pages**, con SEO completo.
 
+<!-- progreso:inicio (generado por _source/build.py, no editar a mano) -->
+## 🌱 Evolución del sitio
+
+Hola 👋 Esta sección se actualiza sola cada vez que se reconstruye el sitio.
+Vas a ver cómo tu web se va llenando poco a poco.
+
+**Avance general** `███░░░░░░░` 27%  (21/77 piezas)
+
+| Sección | Avance | | Notas |
+|---|---|---|---|
+| Inicio (retrato) | `░░░░░░░░░░` | 0/1 |  |
+| Photography | `░░░░░░░░░░` | 0/12 |  |
+| Digital Art | `░░░░░░░░░░` | 0/15 |  |
+| Generative Art | `░░░░░░░░░░` | 0/4 | + embeds de objkt a mano |
+| Poetry | `░░░░░░░░░░` | 0/21 |  |
+| Music | `██████████` | 12/12 | audio embebido ✓ |
+| Collabs | `████████░░` | 9/12 | audio embebido |
+
+**Listo ya:** textos y pies de foto de todas las páginas · música y collabs sonando · SEO completo (sin `noindex`) · diseño fiel al original · responsive.
+
+**Falta:** soltar las imágenes limpias en `img/` (ver `IMAGES_NEEDED.md`) y pegar los embeds de generative art.
+<!-- progreso:fin -->
+
 Respeta la estructura visual de la autora: fondo blanco, tipografía **Lato**,
 acento **teal `#7DB6B1`**, encabezados tipo banner con el título encima.
 
