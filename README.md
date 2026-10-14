@@ -9,14 +9,14 @@ HTML estático para servir **rápido** desde **Cloudflare Pages**, con SEO compl
 Hola 👋 Esta sección se actualiza sola cada vez que se reconstruye el sitio.
 Vas a ver cómo tu web se va llenando poco a poco.
 
-**Avance general** `███░░░░░░░` 32%  (24/76 piezas)
+**Avance general** `███░░░░░░░` 32%  (25/77 piezas)
 
 | Sección | Avance | | Notas |
 |---|---|---|---|
 | Inicio (retrato) | `░░░░░░░░░░` | 0/1 |  |
 | Photography | `░░░░░░░░░░` | 0/12 | imágenes |
 | Digital Art | `░░░░░░░░░░` | 0/15 | imágenes |
-| Generative Art | `██████████` | 3/3 | embebidas en vivo: Spotlights, Entropy, Aquarius |
+| Generative Art | `██████████` | 4/4 | embebidas en vivo: Spotlights, Entropy, Aquarius, Lucinda |
 | Poetry | `░░░░░░░░░░` | 0/21 | imágenes |
 | Music | `██████████` | 12/12 | audio embebido ✓ |
 | Collabs | `████████░░` | 9/12 | audio embebido |
