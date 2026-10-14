@@ -9,14 +9,14 @@ HTML estático para servir **rápido** desde **Cloudflare Pages**, con SEO compl
 Hola 👋 Esta sección se actualiza sola cada vez que se reconstruye el sitio.
 Vas a ver cómo tu web se va llenando poco a poco.
 
-**Avance general** `████░░░░░░` 37%  (31/83 piezas)
+**Avance general** `████░░░░░░` 40%  (34/86 piezas)
 
 | Sección | Avance | | Notas |
 |---|---|---|---|
 | Inicio (retrato) | `░░░░░░░░░░` | 0/1 |  |
 | Photography | `░░░░░░░░░░` | 0/12 | imágenes |
 | Digital Art | `░░░░░░░░░░` | 0/15 | imágenes |
-| Generative Art | `██████████` | 10/10 | embebidas en vivo: Spotlights, Entropy, Aquarius, Lucinda, Urbano 2.0, En esta vida, Nanito's Red Balloons, Pasatiempo, Arena, Funky Palms |
+| Generative Art | `██████████` | 13/13 | embebidas en vivo: Spotlights, Entropy, Aquarius, Lucinda, Urbano 2.0, En esta vida, Nanito's Red Balloons, Pasatiempo, Arena, Funky Palms, A way of breathing #0, A way of breathing #1, A way of breathing #2 |
 | Poetry | `░░░░░░░░░░` | 0/21 | imágenes |
 | Music | `██████████` | 12/12 | audio embebido ✓ |
 | Collabs | `████████░░` | 9/12 | audio embebido |
