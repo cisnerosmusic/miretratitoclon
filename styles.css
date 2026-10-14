@@ -95,7 +95,7 @@ figcaption{padding:12px 2px 2px}
 /* ---- generative art ---- */
 .gens{display:grid;gap:56px}
 .gen{display:grid;gap:0;border:1px solid var(--line);background:#0a0a0a}
-.gen-stage{position:relative;width:100%;background:#0a0a0a;overflow:hidden}
+.gen-stage{position:relative;width:100%;max-width:900px;margin:0 auto;background:#0a0a0a;overflow:hidden}
 .gen-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
 .gen-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .gen-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
