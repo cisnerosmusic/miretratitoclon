@@ -36,4 +36,21 @@
   closeBtn.addEventListener('click', close);
   lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+
+  // Generative art: load the interactive iframe only when the viewer hits Play.
+  document.querySelectorAll('.gen-stage[data-src]').forEach(function (stage) {
+    var btn = stage.querySelector('.gen-play');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      if (stage.classList.contains('playing')) return;
+      var f = document.createElement('iframe');
+      f.src = stage.getAttribute('data-src');
+      f.title = stage.getAttribute('data-title') || 'Interactive artwork';
+      f.setAttribute('allow', 'fullscreen; accelerometer; gyroscope');
+      f.setAttribute('allowfullscreen', '');
+      f.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-pointer-lock allow-fullscreen');
+      stage.appendChild(f);
+      stage.classList.add('playing');
+    });
+  });
 })();

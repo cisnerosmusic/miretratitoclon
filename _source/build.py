@@ -135,7 +135,7 @@ def doc(slug, title, desc, body, active=None):
 <footer class="site-foot"><div class="wrap">
 <p class="foot-handle">{esc(S["handle"])}</p>
 <p class="foot-tags">{esc(S["hashtags"])}</p>
-<p class="foot-mail"><a href="mailto:{esc(S["email"])}">{esc(S["email"])}</a></p>
+<p class="foot-mail"><a href="mailto:{esc(S["email"])}">{esc(S["email"])}</a>{' · <a href="'+esc(S["linktree"])+'" target="_blank" rel="noopener">Links</a>' if S.get("linktree") else ''}</p>
 <p class="foot-copy">&copy; Mi Retratito</p>
 </div></footer>
 <script src="/app.js" defer></script>
@@ -161,14 +161,34 @@ for slug in ["photography", "digital-art", "poetry"]:
     body = banner(slug, d["heading"], d.get("intro","")) + f'<section class="wrap section">{gallery(slug, d["items"])}</section>'
     (OUT/f"{slug}.html").write_text(doc(slug, f'{d["heading"]} — Mi Retratito', d.get("intro", d["heading"]), body), encoding="utf-8")
 
+def gen_embeds(items):
+    cards = []
+    for it in items:
+        desc = f'<p class="gen-desc">{esc(it["desc"])}</p>' if it.get("desc") else ""
+        link = f'<a class="gen-link" href="{esc(it["link"])}" target="_blank" rel="noopener">View the NFT ↗</a>' if it.get("link") else ""
+        ratio = esc(it.get("ratio", "16 / 9"))
+        if it.get("media"):
+            # Click-to-play facade: poster first, iframe loads only on demand (lighter + cleaner).
+            poster = (f'<img class="gen-poster" src="{esc(it["poster"])}" alt="{esc(it["title"])}" loading="lazy">'
+                      if it.get("poster") else "")
+            frame = (f'<div class="gen-stage" style="aspect-ratio:{ratio}" '
+                     f'data-src="{esc(it["media"])}" data-title="{esc(it["title"])}">'
+                     f'{poster}<button class="gen-play" type="button" aria-label="Play {esc(it["title"])}">'
+                     f'<span>▶</span> Play</button></div>')
+        else:
+            frame = (f'<div class="gen-stage pending" style="aspect-ratio:{ratio}"><span>{esc(it["title"])}</span></div>')
+        cards.append(f'<article class="gen">{frame}<div class="gen-meta"><h2>{esc(it["title"])}</h2>{desc}{link}</div></article>')
+    return f'<div class="gens">{"".join(cards)}</div>'
+
 ga = C["generative-art"]
-ga_body = (
-    banner("generative-art", ga["heading"], ga.get("intro","")) +
-    '<section class="wrap section"><div class="notice">'
-    '<p>Generative pieces are minted as NFTs on <a href="https://objkt.com" target="_blank" rel="noopener">objkt</a>. '
-    'Clean embeds will be added here.</p></div>'
-    + gallery("generative-art", [{"title": f"Piece {i:02d}"} for i in range(1,5)]) + '</section>'
-)
+has_live = any(it.get("media") for it in ga["items"])
+note = ("" if has_live else
+    '<div class="notice"><p>Generative pieces are minted as NFTs on '
+    '<a href="https://objkt.com" target="_blank" rel="noopener">objkt</a> / '
+    '<a href="https://www.transient.xyz" target="_blank" rel="noopener">transient</a>. '
+    'Live embeds will be added here.</p></div>')
+ga_inner = gen_embeds(ga["items"]) if ga["items"] else gallery("generative-art", [{"title": f"Piece {i:02d}"} for i in range(1,5)])
+ga_body = banner("generative-art", ga["heading"], ga.get("intro","")) + f'<section class="wrap section">{note}{ga_inner}</section>'
 (OUT/"generative-art.html").write_text(doc("generative-art", f'{ga["heading"]} — Mi Retratito', ga.get("intro",""), ga_body), encoding="utf-8")
 
 m = C["music"]
@@ -184,7 +204,8 @@ contact_body = (
     '<section class="wrap section contact">'
     '<p class="contact-lead">For prints, collaborations, commissions and bookings.</p>'
     f'<p class="contact-mail"><a href="mailto:{esc(S["email"])}">{esc(S["email"])}</a></p>'
-    f'<p class="contact-handle">{esc(S["handle"])}</p>'
+    + (f'<p class="contact-links"><a href="{esc(S["linktree"])}" target="_blank" rel="noopener">All links ↗</a></p>' if S.get("linktree") else "")
+    + f'<p class="contact-handle">{esc(S["handle"])}</p>'
     f'<p class="contact-tags">{esc(S["hashtags"])}</p></section>'
 )
 (OUT/"contact.html").write_text(doc("contact", "Contact — Mi Retratito", "Contact Mi Retratito for prints, collaborations and commissions.", contact_body), encoding="utf-8")

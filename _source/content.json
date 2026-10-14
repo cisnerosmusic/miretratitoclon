@@ -4,6 +4,7 @@
     "handle": "@MiRetratito",
     "email": "miretratito@gmail.com",
     "domain": "miretratito.art",
+    "linktree": "https://linktr.ee/MiRetratito",
     "tagline": "Poet, Performing Artist & Photographer · Musician",
     "bio": "Digital artist whose interdisciplinary practice explores the organic, language, memory, and perception through image, sound, movement, and code. Her work combines human and generative processes in pieces where fragmentation, gesture, and transformation function as intuitive and conceptual languages. Between the intimate and the experimental, she develops sensitive experiences that traverse different media and formats, expanding the relationship between body, technology, and perception.",
     "hashtags": "#MiRetratito #MiRetratitoArt"
@@ -49,8 +50,17 @@
   },
   "generative-art": {
     "heading": "Generative Art",
-    "intro": "Code-born pieces, many minted as NFTs on objkt. Clean embeds pending.",
-    "items": []
+    "intro": "Live, interactive code pieces, minted as 1/1 NFTs.",
+    "items": [
+      {
+        "title": "Spotlights",
+        "media": "https://ipfs.transientusercontent.xyz/ipfs/QmPmNkEjLhyqwXKAFJ57vk5RHebXwq5Z8Wh3ySych6VUyf/media",
+        "poster": "https://ipfs.transientusercontent.xyz/ipfs/QmPmNkEjLhyqwXKAFJ57vk5RHebXwq5Z8Wh3ySych6VUyf/thumbnail",
+        "link": "https://www.transient.xyz/nfts/ethereum/0x1dc547b2c1cfdbb1e8ceb2cb26a8dd67b0f51514/1",
+        "ratio": "1919 / 867",
+        "desc": "A living constellation of colored presences that appear, vanish, and reemerge. Interactive 1/1 — go full screen and keep playing without triggering the hidden reset."
+      }
+    ]
   },
   "music": {
     "heading": "Music",
